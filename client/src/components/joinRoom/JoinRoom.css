@@ -1,0 +1,174 @@
+html,body {
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.join-room-body{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.player-how-to-play-wrapper{
+    margin-top: 20px;
+    width:100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.player-details-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.player-photo{
+    margin-left: 30px;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+.player-details{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.player-role{
+    font-size: xx-large;
+    color:blue
+}
+.player-name{
+    font-weight: 400;
+}
+
+.how-to-play-button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+.how-to-play-button{
+    height: 40px;
+    width:auto;
+    background: #4757EC !important;
+}
+
+.song-container{
+    width: 100vw !important; 
+    background: #4757EC;
+    height: auto;
+    min-height: 300px;
+    border-top-right-radius: 65px;
+    border-top-left-radius: 65px;
+    display: flex;
+    flex-direction: column;
+    padding-top:4vh ;
+    align-items: center;
+    gap:3vh;
+}
+.add-song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 100vw;
+}
+.add-song-input-container{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+
+}
+
+.add-song-input{
+    width: 80%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-width: 0px !important;
+   
+}
+
+.add-song-button{
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: black;
+   margin-left: 3px;
+    width:60px
+}
+.join-page-icon{
+    display: flex;
+    background: #FFFFFF;
+    color: black;
+    width:20px;
+    align-items: center;
+}
+
+.added-songs{
+    display: flex;
+    width: 90%;
+    justify-content: center;;
+}
+
+.start-button{
+    width: 100%;
+    border-radius: 0;
+    height: 40px;
+    font-size: 26px;
+    color: black;
+    background: #F2BE08;
+}
+
+.start-button:hover{
+    background: #c89f0a !important;
+    color: black !important;
+}
+
+.start-button:focus{
+background: #F2BE08 !important;
+color: black !important;
+}
+
+
+
+@media screen and (max-width: 400px){
+
+    .player-details-container{
+        flex-direction: column;
+    
+    }
+
+
+    .player-photo{
+        height: 70px;
+        width:70px;
+        
+    }
+    .player-details{
+        margin-top: 3px;
+        margin-left: 30px;
+    }
+    .player-role{
+        font-size:large;
+        color:blue
+    }
+    .player-how-to-play-wrapper{
+        margin-top: 20px;
+        width:100vw;
+        display: grid;
+        display:flex;
+        flex-direction: column;
+
+    
+    }
+    .how-to-play-button-container{
+        display: flex;
+        justify-content:left;
+        margin-top: 2vh;
+        margin-left: 5vw;
+    }
+
+}

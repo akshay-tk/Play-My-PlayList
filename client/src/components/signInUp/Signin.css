@@ -1,0 +1,18 @@
+.signin-form-fields{ 
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5vh;
+    justify-content: center;}
+
+.signin-button{
+    width:50%;
+    margin-left: 25%;
+    margin-bottom: 3vh;
+}
+.signIn-textbox{
+    width:95%;
+}
+.signin-alternative-options{
+    
+}

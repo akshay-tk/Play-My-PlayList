@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    
+}
+
+.form-fields{
+    display:flex;
+    flex-direction: column;
+    gap:10vh;
+    justify-content: center;
+    /* background: url('../../assets/bg-music.png');
+    background-repeat: no-repeat;
+    background-size: 70%; */
+}
+.heading-create{
+    font-size: 3em;
+}
+.roomId-container{
+    display: flex;
+    justify-content: center;
+    margin-left:3vw;
+
+}
+.roomId-copy-button{
+    width:auto;
+    margin-top: 2vh;
+    background: #4757EC;
+}
+
+.form-row-grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+.form-row-grid-input{
+    
+    display: grid;
+    gap:1%;
+    grid-template-columns: 84% 15%;
+    
+}
+
+
+.form-label-input-grid{
+    gap:2vh;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number-of-participents-textbox{
+    width:90%
+}
+
+.rule-textbox{
+    width:90%;
+    height:90px;
+}
+
+.generate-passcode{
+    width:90%; 
+    background: #4757EC;
+}
+.create-button{
+    margin-left: 35vw;
+    width:30vw;
+    background: #4757EC;
+}
+
+.copy-passcode{
+    background: #4757EC;
+}
+
+
+@media screen and (max-width: 600px){
+
+    .form-fields{
+      
+        gap:5vh;
+       
+    }
+    .heading-create{
+        font-size: 2em;
+    }
+    .form-row-grid{
+        display:flex;
+        flex-direction: column;
+    
+        justify-content: center;
+    }
+    .form-label-input-grid{
+
+        width:90%
+    }
+    .number-of-participents-textbox{
+        width: 100%;
+    }
+    .generate-passcode{
+        width:100%; 
+    }
+
+    .rule-textbox{
+        width:100%;
+    }
+    .create-button{
+        margin-left: 20vw;
+        width:60vw;
+    }
+
+
+}

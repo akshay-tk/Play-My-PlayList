@@ -1,0 +1,114 @@
+.lobby-container{
+    margin-top: 4vw!important;
+    display:flex;
+    flex-direction: column;
+    margin-left: 10vw !important;
+    width: 80vw;
+    height: auto;
+    background: #F0E0E0;
+    border-radius: 5px;
+    /* position at center of page */
+    margin: 0 auto;
+    padding-top: 2vh;
+    margin-bottom: 3vh !important;
+    
+
+}
+.header{
+    /* align text at the top of div */
+    text-align: center;
+    margin-top: 0px !important;
+    vertical-align: top;
+    padding-bottom: 2vh;
+}
+
+.lobby-users{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:3vw;
+    margin-bottom: 2vw;
+}
+
+.lobby-user{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+
+.user-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.user-status{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    /* width: 15px;
+    height: 15px; */
+    background: green;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.status-icon{
+    height:25px;
+    width: 25px;
+}
+
+
+
+.username{
+    font-size:1em;
+    color: #ff1010;
+    padding-top: 0.5vh;
+    /* align text as center*/
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .lobby-user{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        color: #333333;
+        background: #dddddd;
+        border: none;
+        outline: none;
+        border-radius: 50%;
+    }
+    .user-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .username{
+        font-size: .8em;
+        color: #ff1010;
+        padding-top: 0.5vh;
+        /* align text as center*/
+        text-align: center;
+    }
+    .status-icon{
+        height:20px;
+        width: 20px;
+    }
+}

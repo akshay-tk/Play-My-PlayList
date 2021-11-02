@@ -1,0 +1,33 @@
+.signup-form-fields{ 
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10vh;
+    gap: 4vh;
+    justify-content: center;}
+
+.signup-heading{
+    margin-top: 4vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.signup-button{
+    width:50%;
+    margin-left: 25%;
+    margin-bottom: 3vh;
+}
+.signUp-textbox{
+    width:95%;
+}
+.signup-warning{
+    color:red;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px){
+    .signup-heading{
+
+        font-size: 1.5em;
+    }
+}
